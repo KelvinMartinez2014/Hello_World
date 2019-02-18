@@ -4,7 +4,7 @@
 ### Prof. Alcibiades Bustillo
 ### Comp 4018-020
 
-## ** Requirement Definitions Documentation **
+### Requirement Definitions Documentation
 
 ### Green books provide a variety of operations that the user can use in the application such as: 
   
