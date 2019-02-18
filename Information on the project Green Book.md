@@ -1,10 +1,10 @@
-## Kelvin Martinez
-## Jonathan R. Roman Velez
-## 18 de febrero de 2019 
-## Prof. Alcibiades Bustillo
-## Comp 4018-020
+### Kelvin Martinez
+### Jonathan R. Roman Velez
+### 18 de febrero de 2019 
+### Prof. Alcibiades Bustillo
+### Comp 4018-020
 
-## **Information on the Project**
+### **Information on the Project**
 
 ### Team Name: Tarzan Software Development
 
