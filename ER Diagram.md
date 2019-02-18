@@ -3,26 +3,28 @@
 ### 18 de febrero de 2019 
 ### Prof. Alcibiades Bustillo
 ### Comp 4018-020
-
+###
 ### Análisis
-
+###
 ### 1.	Entities
-### ___a.	User
-###b.	Vendor
-###c.	Product
-###d.	Item
-###e.	Book Item
-###f.	Clothing Item
-###g.	Electronic Item
-###h.	Lab Material Item
-###i.	Class Material Item
-###j.	Service Item
-###k.	Other Item
-###l.	Transaction
-###m.	Vendor Debt
+### a.	User
+### b.	Vendor
+### c.	Product
+### d.	Item
+### e.	Book Item
+### f.	Clothing Item
+### g.	Electronic Item
+### h.	Lab Material Item
+### i.	Class Material Item
+### j.	Service Item
+### k.	Other Item
+### l.	Transaction
+### m.	Vendor Debt
 
-###2.	Attributes
-###a.	User
+###
+
+### 2.	Attributes
+### a.	User
 ### i.	User ID
 ### ii.	Username
 ### iii.	Email
@@ -107,6 +109,8 @@
 ### ii.	Oldest Transaction Unpaid
 ### iii.	Accum Debt
 
+###
+
 ### 3.	Relaciones
 ### a.	Item can be a Book Item, Clothing Item, Electronic Item, Lab Material Item, Class Material Item, Service Item and Other Item.
 ### b.	User can be a Vendor
@@ -116,6 +120,8 @@
 ### f.	Vendor completes Transaction
 ### g.	Item is offered in Transaction
 ### h.	Vendor offers Item
+
+###
 
 ### 4.	Restricciones
 ### a.	An Item can only be one  Book Item, Clothing Item, Electronic Item, Lab Material Item, Class Material Item, Service Item or Other Item.
