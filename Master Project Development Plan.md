@@ -1,6 +1,6 @@
 ### Kelvin Martinez
 ### Jonathan R. Roman Velez
-### 18 de febrero de 2019 ;
+### 18 de febrero de 2019 
 ### Prof. Alcibiades Bustillo
 ### Comp 4018-020
  
