@@ -1,10 +1,10 @@
-Kelvin Martinez
-Jonathan R. Roman Velez
-18 de febrero de 2019 ;
-Prof. Alcibiades Bustillo
-Comp 4018-020
+### Kelvin Martinez
+### Jonathan R. Roman Velez
+### 18 de febrero de 2019 ;
+### Prof. Alcibiades Bustillo
+### Comp 4018-020
  
-Plans for Sprint 1:
+## Plans for Sprint 1:
 
 Due date March 1, 2019
 Goal: App GUI Design and DBMS instance
@@ -19,8 +19,9 @@ Goal: App GUI Design and DBMS instance
 
 5.	Updated version for the Master Development Plan should be done from February 26, 2019 to February 28, 2019
 
- 
-Graph Displaying the Timeline for Sprint 0
+![Table 1](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Table%201.png) 
+
+##### Graph Displaying the Timeline for Sprint 0
 
 Plans for Sprint 2:
 
@@ -37,4 +38,6 @@ Goal: Complete 50% of the project
 
 5. Updated Master Project Development Plan should be completed before March 14, 2019. 
 
-Graph Displaying the Timeline for Sprint 0
+![Table 2](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Table%202.png)
+
+##### Graph Displaying the Timeline for Sprint 0
