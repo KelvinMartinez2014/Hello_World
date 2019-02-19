@@ -120,13 +120,13 @@
 *	Vendor offers Item
 
 4.	Restricciones:
-* a.	An Item can only be one  Book Item, Clothing Item, Electronic Item, Lab Material Item, Class Material Item, Service Item or Other Item.
-* b.	Many Items can be classified under one type of product. However, under one product there can be many different types of items. 
-* c.	One Vender has only one vendor Debt. Similarly, one Vendor Debt is owned by a Vendor.
-* d.	One User can be Vender. Similarly, a Vender can be an User.
-* e.	One User can begin many Transactions. However, one Transaction is comenzed by the specific User. 
-* f.	One Vendor can complete many Transactions. However, one Transaction is completed by the specific Vendor.   
-* g.	One Item is offered in can be sold in many transaction. However, one Transaction offers a specific Item.
-* h.	One Vendor can offer many item for sale. However, one Item can be offered by one Vendor.
+* An Item can only be one  Book Item, Clothing Item, Electronic Item, Lab Material Item, Class Material Item, Service Item or Other Item.
+* Many Items can be classified under one type of product. However, under one product there can be many different types of items. 
+* One Vender has only one vendor Debt. Similarly, one Vendor Debt is owned by a Vendor.
+* One User can be Vender. Similarly, a Vender can be an User.
+* One User can begin many Transactions. However, one Transaction is comenzed by the specific User. 
+* One Vendor can complete many Transactions. However, one Transaction is completed by the specific Vendor.   
+* One Item is offered in can be sold in many transaction. However, one Transaction offers a specific Item.
+* One Vendor can offer many item for sale. However, one Item can be offered by one Vendor.
 
 ### ER Diagram
