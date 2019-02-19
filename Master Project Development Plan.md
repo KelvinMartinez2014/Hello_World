@@ -23,7 +23,7 @@ Goal: App GUI Design and DBMS instance
 
 ##### Graph Displaying the Timeline for Sprint 0
 
-Plans for Sprint 2:
+##  Plans for Sprint 2:
 
 Due date: March 15, 2019
 Goal: Complete 50% of the project
