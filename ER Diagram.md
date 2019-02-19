@@ -6,7 +6,7 @@
 ###
 ### Análisis
 
-1. Entities
+1. Entities:
   * User
   * Vendor
   * Product
@@ -21,22 +21,22 @@
   * Transaction
   *	Vendor Debt
   
-2.	Attributes
-    * User
-### i.	User ID
-### ii.	Username
-### iii.	Email
-### iv.	Password
-### v.	First Name
-### vi.	Last Name
-### vii.	Telephone
-### viii.	 Address
-### ix.	City
-### x.	State
-### xi.	Zip Code
-### xii.	User Type
-### xiii.	Validated
-   * Vendedor
+2.	Attributes:
+* User
+ * User ID (PK)
+ * Username
+ *	Email
+ *	Password
+ *	First Name
+ *	Last Name
+ *	Telephone
+ *	 Address
+ *	City
+ *	State
+ * Zip Code
+ *	User Type
+ *	Validated
+* Vendedor
 ### i.	Vendor ID
 ### ii.	User ID
 ### iii.	Student ID
