@@ -142,3 +142,5 @@
 * One Vendor can offer many item for sale. However, one Item can be offered by one Vendor.
 
 ## ER Diagram
+
+! [ER Green Book](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Green%20Books%20ER%20Diagram.jpg)
