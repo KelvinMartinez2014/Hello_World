@@ -6,9 +6,9 @@
 ###
 ### Análisis
 ###
-### 1.	Entities
-### a.	User
-### b.	Vendor
+### - 1.	Entities
+###  -a.	User
+###  -b.	Vendor
 ### c.	Product
 ### d.	Item
 ### e.	Book Item
