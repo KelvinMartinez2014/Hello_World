@@ -15,17 +15,14 @@
   *	Clothing Item
   * Electronic Item
   * Lab Material Item
-	* Class Material Item
+  * Class Material Item
   *	Service Item
   *	Other Item
- 	* Transaction
+  * Transaction
   *	Vendor Debt
   
-
-###
-
-### 2.	Attributes
-### a.	User
+2.	Attributes
+    * User
 ### i.	User ID
 ### ii.	Username
 ### iii.	Email
@@ -39,7 +36,7 @@
 ### xi.	Zip Code
 ### xii.	User Type
 ### xiii.	Validated
-### b.	Vendedor
+   * Vendedor
 ### i.	Vendor ID
 ### ii.	User ID
 ### iii.	Student ID
