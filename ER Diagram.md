@@ -109,26 +109,24 @@
 
 ###
 
-### 3.	Relaciones
-### a.	Item can be a Book Item, Clothing Item, Electronic Item, Lab Material Item, Class Material Item, Service Item and Other Item.
-### b.	User can be a Vendor
-### c.	Product classify Item
-### d.	Vendor owns Vendor Debt
-### e.	User begins Transaction
-### f.	Vendor completes Transaction
-### g.	Item is offered in Transaction
-### h.	Vendor offers Item
+3.	Relaciones:
+* Item can be a Book Item, Clothing Item, Electronic Item, Lab Material Item, Class Material Item, Service Item and Other Item.
+*	User can be a Vendor
+*	Product classify Item
+*	Vendor owns Vendor Debt
+*	User begins Transaction
+*	Vendor completes Transaction
+*	Item is offered in Transaction
+*	Vendor offers Item
 
-###
-
-### 4.	Restricciones
-### a.	An Item can only be one  Book Item, Clothing Item, Electronic Item, Lab Material Item, Class Material Item, Service Item or Other Item.
-### b.	Many Items can be classified under one type of product. However, under one product there can be many different types of items. 
-### c.	One Vender has only one vendor Debt. Similarly, one Vendor Debt is owned by a Vendor.
-### d.	One User can be Vender. Similarly, a Vender can be an User.
-### e.	One User can begin many Transactions. However, one Transaction is comenzed by the specific User. 
-### f.	One Vendor can complete many Transactions. However, one Transaction is completed by the specific Vendor.   
-### g.	One Item is offered in can be sold in many transaction. However, one Transaction offers a specific Item.
-### h.	One Vendor can offer many item for sale. However, one Item can be offered by one Vendor.
+4.	Restricciones:
+* a.	An Item can only be one  Book Item, Clothing Item, Electronic Item, Lab Material Item, Class Material Item, Service Item or Other Item.
+* b.	Many Items can be classified under one type of product. However, under one product there can be many different types of items. 
+* c.	One Vender has only one vendor Debt. Similarly, one Vendor Debt is owned by a Vendor.
+* d.	One User can be Vender. Similarly, a Vender can be an User.
+* e.	One User can begin many Transactions. However, one Transaction is comenzed by the specific User. 
+* f.	One Vendor can complete many Transactions. However, one Transaction is completed by the specific Vendor.   
+* g.	One Item is offered in can be sold in many transaction. However, one Transaction offers a specific Item.
+* h.	One Vendor can offer many item for sale. However, one Item can be offered by one Vendor.
 
 ### ER Diagram
