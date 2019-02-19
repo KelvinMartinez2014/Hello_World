@@ -22,7 +22,7 @@
   *	Vendor Debt
   
 2.	Attributes:
-* User
+a. User:
  * User ID (PK)
  * Username
  *	Email
@@ -36,7 +36,7 @@
  * Zip Code
  *	User Type
  *	Validated
-* Vendedor
+b. Vendedor:
 ### i.	Vendor ID
 ### ii.	User ID
 ### iii.	Student ID
