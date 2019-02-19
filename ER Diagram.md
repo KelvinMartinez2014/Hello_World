@@ -6,20 +6,20 @@
 ###
 ### Análisis
 
-* 1. Entities
-* a.	User
-  - b.	Vendor
-  c.	Product
-  d.	Item
-  e.	Book Item
-  f.	Clothing Item
-  g.	Electronic Item
-  h.	Lab Material Item
-  i.	Class Material Item
-  j.	Service Item
-  k.	Other Item
-  l.	Transaction
-  m.	Vendor Debt
+1. Entities
+  * User
+  * Vendor
+  * Product
+  *	Item
+  *	Book Item
+  *	Clothing Item
+  * Electronic Item
+  * Lab Material Item
+	* Class Material Item
+  *	Service Item
+  *	Other Item
+ 	* Transaction
+  *	Vendor Debt
   
 
 ###
