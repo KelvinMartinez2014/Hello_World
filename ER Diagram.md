@@ -6,7 +6,7 @@
 ###
 ### Análisis
 
-1. Entities:
+#### 1. Entities:
   * User
   * Vendor
   * Product
@@ -21,8 +21,8 @@
   * Transaction
   *	Vendor Debt
   
-2.	Attributes:
-a. User:
+#### 2.	Attributes:
+##### a. User:
  * User ID (PK)
  * Username
  *	Email
