@@ -6,7 +6,7 @@
 ###
 ### Análisis
 ###
-*1. Entities
+**Entities**
   *a.	User
 ###  -b.	Vendor
 ### c.	Product
