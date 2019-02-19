@@ -22,20 +22,6 @@ Goal: App GUI Design and DBMS instance
  
 Graph Displaying the Timeline for Sprint 0
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Plans for Sprint 2:
 
 Due date: March 15, 2019
@@ -51,5 +37,4 @@ Goal: Complete 50% of the project
 
 5. Updated Master Project Development Plan should be completed before March 14, 2019. 
 
- 
 Graph Displaying the Timeline for Sprint 0
