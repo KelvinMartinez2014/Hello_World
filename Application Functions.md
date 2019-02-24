@@ -14,17 +14,20 @@
 
 4. Every vendor will have a Validation, Rating, Vendor ID and Whether or not that Vendor has been blocked. 
 
-5. To sell a book the vendor has to input the following fields: ISBN, Book Title, Author, Volume, Edition, Book State(New, Used, Like New, ect),Class Subject and Year of Publication.
+5. Every item posted on the website will have the following fields: Item Name, Item Status, Photo, Condition(New, Used, Like New, ect), Description and Price. 
 
-6. To sell a Clothing Item the user will have to fill out a form containing: Size, Color, Brand and Name of the Product. 
+6. To sell a book the vendor has to input the following fields: ISBN, Book Title, Author, Volume, Edition, Class Subject and Year of Publication.
+
+7. To sell a Clothing Item the user will have to fill out a form containing: Size, Color, Brand and Name of the Product. 
 
 7. To sell an Electronic Item the user will have to fill out a form containing: Name of the Product, Year of Manufacture, Description and Brand.
 
-8. To sell a Class Material, Service, Lab Material or “Other” item the user will have to fill out the following form: Name, Brand Details and Class subject. 
+9. To sell a Class Material, Service, Lab Material or “Other” item the user will have to fill out the following form: Name, Brand Details and Class subject. 
 
-9. When searching for an item the user may look for it using: ISBN, Nambe of the Book, Author, Brand, Item Name, Class Subject or Year of Manufacture. 
+10. When searching for an item the user may look for it using: ISBN, Nambe of the Book, Author, Brand, Item Name, Class Subject or Year of Manufacture. 
 
-10. The software will allow the user to filter the results by Category, popularity and Date of Publication(or Year of Manufacture).
+11. The software will allow the user to filter the results by Category, popularity and Date of Publication(or Year of Manufacture).
 
-11. User will be allowed to contact Sellers as long as they have an account on the software. 
+12. User will be allowed to contact Sellers as long as they have an account on the software. 
 
+13. Every transaction will contain the following information: Shipping Date, Transaction ID, Trabdaction Fee, Transaction Fee Paid Date, Transaction Status, Shipping Date, Payment Date, Purchased Date, Add to Cart date and if cancelled, the cancelation reason. 
