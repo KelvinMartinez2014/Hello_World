@@ -48,5 +48,5 @@ Goal: Complete 50% of the project
 ### Prof. Alcibiades Bustillo
 ### Comp 4018-020
 
-##Updated Gantt chart for Sprint 1:
+## Updated Gantt chart for Sprint 1:
 ![Table 1](https://github.com/KelvinMartinez2014/Hello_World/blob/Sprint-1/Table%201%20Completed.PNG)
