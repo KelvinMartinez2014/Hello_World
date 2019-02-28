@@ -1,6 +1,6 @@
 ### Kelvin Martinez
 ### Jonathan R. Roman Velez
-### 18 de febrero de 2019 
+### 18 de febrero de 2019
 ### Prof. Alcibiades Bustillo
 ### Comp 4018-020
  
@@ -9,24 +9,24 @@
 Due Date: February 15, 2019
 Goal: Conceptual Design and Development Plan
 
-1. Team/App Name and Concept - Select a Project Manager (PM) should by done beetween February , 2019 and February , 2019.
+1. Team/App Name and Concept - Select a Project Manager (PM) should by done between February 10, 2019 and February 15, 2019.
 
-2. Written Intellectual Property Agreement should by done beetween February , 2019 and February , 2019.
+2. Written Intellectual Property Agreement should by done between February 10, 2019 and February 13, 2019.
 
-3. Selected Development Framework should by done beetween February , 2019 and February , 2019.
+3. Selected Development Framework should by done between February 12, 2019 and February 14, 2019.
 
-4. Complete ER Diagram should by done beetween February , 2019 and February , 2019.
+4. Complete ER Diagram should by done between February 10, 2019 and February 14, 2019.
 
-5. Requirements Definition Document should by done beetween February , 2019 and February , 2019.
+5. Requirements Definition Document should by done between February 10, 2019 and February 12, 2019.
 
-6. Github account - With project repository created and initial commit with the Hello World
-app should by done beetween February , 2019 and February , 2019.
+6. GitHub account - With project repository created and initial commit with the Hello World
+app should by done between February 10, 2019 and February 14, 2019.
 
 7. Working IDE Environment on every team member workstation with Hello World app
-running and connected to teams GitHub repository should by done beetween February , 2019 and February , 2019.
+running and connected to teams GitHub repository should by done between February 10, 2019 and February 11, 2019.
 
-8. Master Project Development Plan. mapped to requirements definition document should by done beetween February , 2019 and February , 2019.
- 
+8. Master Project Development Plan. mapped to requirements definition document should by done between February 10, 2019 and February 14, 2019.
+
 ## Plans for Sprint 1:
 
 Due date March 1, 2019
@@ -42,14 +42,14 @@ Goal: App GUI Design and DBMS instance
 
 5.	Updated version for the Master Development Plan should be done from February 26, 2019 to February 28, 2019
 
-![Table 1](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Table%201.png) 
+![Table 1](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Table%201.png)
 
 ##### Graph Displaying the Timeline for Sprint 0
 
 
 ### Kelvin Martinez
 ### Jonathan R. Roman Velez
-### 1 de Marzo de 2019 
+### 1 de Marzo de 2019
 ### Prof. Alcibiades Bustillo
 ### Comp 4018-020
 
@@ -84,7 +84,7 @@ Goal: Complete 50% of the project
 
 4. Detailed Project Development Plan for Sprint III should be done from March 7, 2019 to  March 14, 2019.
 
-5. Updated Master Project Development Plan should be completed before March 14, 2019. 
+5. Updated Master Project Development Plan should be completed before March 14, 2019.
 
 ![Table 2](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Table%202.png)
 
