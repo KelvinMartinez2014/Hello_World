@@ -41,3 +41,12 @@ Goal: Complete 50% of the project
 ![Table 2](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Table%202.png)
 
 ##### Graph Displaying the Timeline for Sprint 0
+
+### Kelvin Martinez
+### Jonathan R. Roman Velez
+### 1 de Marzo de 2019 
+### Prof. Alcibiades Bustillo
+### Comp 4018-020
+
+##Updated Gantt chart for Sprint 1:
+![Table 1](https://github.com/KelvinMartinez2014/Hello_World/blob/Sprint-1/Table%201%20Completed.PNG)
