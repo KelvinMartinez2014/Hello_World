@@ -27,6 +27,8 @@ running and connected to teams GitHub repository should by done between February
 
 8. Master Project Development Plan. mapped to requirements definition document should by done between February 10, 2019 and February 14, 2019.
 
+![Table 0](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Sprint%200.PNG)
+
 ## Plans for Sprint 1:
 
 Due date March 1, 2019
