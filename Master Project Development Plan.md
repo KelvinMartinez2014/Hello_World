@@ -53,17 +53,15 @@ Goal: Complete 50% of the project
 Due date March 1, 2019
 Goal: App GUI Design and DBMS instance
 
-Some Markdown text with <span style="color:blue">some *blue* text</span>.
-
 1.	ER mapping and DBMS instance hosted on the cloud should be functional as of February 24, 2019. (<span style="color: green">Completed</span>)
 
-2.	App mock screenshots and/or wire frames with matching requirements and task descriptions should be done by February 28, 2019.
+2.	App mock screenshots and/or wire frames with matching requirements and task descriptions should be done by February 28, 2019. (In Progress)
 
-3.	Gantt Charts should be done before February 27, 2019.
+3.	Gantt Charts should be done before February 27, 2019. (Completed)
 
-4.	Detailed Project Development plan for Sprint II should be done from February 24, 2019 to February 27, 2019
+4.	Detailed Project Development plan for Sprint II should be done from February 24, 2019 to February 27, 2019 (Completed)
 
-5.	Updated version for the Master Development Plan should be done from February 26, 2019 to February 28, 2019
+5.	Updated version for the Master Development Plan should be done from February 26, 2019 to February 28, 2019 (Completed)
 
 ## Updated Gantt chart for Sprint 1:
 ![Table 1](https://github.com/KelvinMartinez2014/Hello_World/blob/Sprint-1/Table%201%20Completed.PNG)
