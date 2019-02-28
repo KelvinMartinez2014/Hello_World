@@ -4,6 +4,29 @@
 ### Prof. Alcibiades Bustillo
 ### Comp 4018-020
  
+## Plans for Sprint 0:
+
+Due Date: February 15, 2019
+Goal: Conceptual Design and Development Plan
+
+1. Team/App Name and Concept - Select a Project Manager (PM) should by done beetween February , 2019 and February , 2019.
+
+2. Written Intellectual Property Agreement should by done beetween February , 2019 and February , 2019.
+
+3. Selected Development Framework should by done beetween February , 2019 and February , 2019.
+
+4. Complete ER Diagram should by done beetween February , 2019 and February , 2019.
+
+5. Requirements Definition Document should by done beetween February , 2019 and February , 2019.
+
+6. Github account - With project repository created and initial commit with the Hello World
+app should by done beetween February , 2019 and February , 2019.
+
+7. Working IDE Environment on every team member workstation with Hello World app
+running and connected to teams GitHub repository should by done beetween February , 2019 and February , 2019.
+
+8. Master Project Development Plan. mapped to requirements definition document should by done beetween February , 2019 and February , 2019.
+ 
 ## Plans for Sprint 1:
 
 Due date March 1, 2019
@@ -23,24 +46,6 @@ Goal: App GUI Design and DBMS instance
 
 ##### Graph Displaying the Timeline for Sprint 0
 
-##  Plans for Sprint 2:
-
-Due date: March 15, 2019
-Goal: Complete 50% of the project
-
-1. Updated Gantt charts with percent completion for sprints I and II should be done by March 13, 2019.
-
-2. Overall project percent compilation at 50% will have to be funcional y March 13, 2019.
-
-3. Testing of the project should be done on March 14, 2019.
-
-4. Detailed Project Development Plan for Sprint III should be done from March 7, 2019 to  March 14, 2019.
-
-5. Updated Master Project Development Plan should be completed before March 14, 2019. 
-
-![Table 2](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Table%202.png)
-
-##### Graph Displaying the Timeline for Sprint 0
 
 ### Kelvin Martinez
 ### Jonathan R. Roman Velez
@@ -65,3 +70,22 @@ Goal: App GUI Design and DBMS instance
 
 ## Updated Gantt chart for Sprint 1:
 ![Table 1](https://github.com/KelvinMartinez2014/Hello_World/blob/Sprint-1/Table%201%20Completed.PNG)
+
+##  Plans for Sprint 2:
+
+Due date: March 15, 2019
+Goal: Complete 50% of the project
+
+1. Updated Gantt charts with percent completion for sprints I and II should be done by March 13, 2019.
+
+2. Overall project percent compilation at 50% will have to be funcional y March 13, 2019.
+
+3. Testing of the project should be done on March 14, 2019.
+
+4. Detailed Project Development Plan for Sprint III should be done from March 7, 2019 to  March 14, 2019.
+
+5. Updated Master Project Development Plan should be completed before March 14, 2019. 
+
+![Table 2](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Table%202.png)
+
+##### Graph Displaying the Timeline for Sprint 0
