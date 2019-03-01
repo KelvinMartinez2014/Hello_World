@@ -29,7 +29,7 @@ Now, in the case, the user wants to be a vendor, the user must click "Register a
 
 The user must fill the information asked for and click the "Submit" Button to create an account. After the user submits, the user will be send to the log in as Vendor page.
 
-![LogInAsVendor](https://github.com/KelvinMartinez2014/Hello_World/blob/master/LogInAsBuyer.png)
+![LogInAsVendor](https://github.com/KelvinMartinez2014/Hello_World/blob/master/LogInAsVendor.png)
 
 The user inputs the username and password and clicks "Log In" Button to access account.
 ![VendorHomeScreen](https://github.com/KelvinMartinez2014/Hello_World/blob/master/VendorHomeScreen.png)
