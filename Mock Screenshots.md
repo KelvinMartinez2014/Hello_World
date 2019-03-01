@@ -15,6 +15,7 @@ The user inputs the username and password and clicks "Log In" Button to access a
 ![HomePageBuyer](https://github.com/KelvinMartinez2014/Hello_World/blob/master/HOMEPAGEBuyer.png)
 
 The user can look for what their looking for by looking by product type. Let say, you want a book. The page will look like this.
+
 ![BuyByCategoryBuyer](https://github.com/KelvinMartinez2014/Hello_World/blob/master/BuyByCategoryBuyer.png)
 
 The user can search the book that they want and save it on the cart. The other products pages works similar.
@@ -22,7 +23,15 @@ The user can search the book that they want and save it on the cart. The other p
 
 Ater the user proceeds to send the money to the vendor, the vendor will recieve a notification to communicato with the user.
 
-Now, in the case,, the user wants to be a vendor, the user must click "Register as Vendor".
-![RegisterAsVendor](https://github.com/KelvinMartinez2014/Hello_World/blob/master/REGISTERASVENDOR.png
+Now, in the case, the user wants to be a vendor, the user must click "Register as Vendor".
 
+![REGISTERASVENDOR](https://github.com/KelvinMartinez2014/Hello_World/blob/master/REGISTERASVENDOR.png)
 
+The user must fill the information asked for and click the "Submit" Button to create an account. After the user submits, the user will be send to the log in as Vendor page.
+
+![LogInAsVendor](https://github.com/KelvinMartinez2014/Hello_World/blob/master/LogInAsBuyer.png)
+
+The user inputs the username and password and clicks "Log In" Button to access account.
+![VendorHomeScreen](https://github.com/KelvinMartinez2014/Hello_World/blob/master/VendorHomeScreen.png)
+
+The vendor can hve the chance to add, update and delete in their list of products.
