@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../css/nav_bar.css">
+
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
