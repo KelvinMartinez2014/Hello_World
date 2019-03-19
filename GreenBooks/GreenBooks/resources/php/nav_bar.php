@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="resources/css/nav_bar.css">
 <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
   
-<link href="resources/css/mdb.min.css" rel="stylesheet">
+<!-- <link href="resources/css/mdb.min.css" rel="stylesheet"> -->
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
