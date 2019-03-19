@@ -11,8 +11,8 @@
 	<?php include 'resources\php\nav_bar.php';?>
 	<div class="container">
 
-		<div class="row">
-			
+		<div class="row" style="background-color:green">
+			<br>
 		</div>
 		
 		
