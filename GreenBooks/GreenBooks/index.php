@@ -10,17 +10,12 @@
 <body>
 	<?php include 'resources\php\nav_bar.php';?>
 	<div class="container">
+
 		<div class="row">
-			<div class="col-sm-2">
-				One of three columns
-			</div>
-			<div class="col-sm-8">
-				One of three columns
-			</div>
-			<div class="col-sm-2">
-				One of three columns
-			</div>
+			
 		</div>
+		
+		
 	</div>
 	
 </body>
