@@ -9,8 +9,82 @@
 </head>
 <body>
 	<?php include 'resources\php\nav_bar.php';?>
-	<div class="container">
 
+	<div class="container" style="margin-top: 2%">
+		<div class="row">
+  <div class="col-md-12">
+
+    <div id="mdb-lightbox-ui"></div>
+
+    <div class="mdb-lightbox no-margin">
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"
+            class="img-fluid">
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"
+            class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"
+            class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(123).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg"
+            class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(118).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg"
+            class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(128).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg"
+            class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(132).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg"
+            class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(115).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"
+            class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(133).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(133).jpg"
+            class="img-fluid" />
+        </a>
+      </figure>
+
+    </div>
+
+  </div>
+</div>
 		<div class="row" style="background-color:green">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus eget nisl vel porttitor. Suspendisse tincidunt tristique commodo. In lobortis eu dolor quis tincidunt. Vivamus non erat nec massa commodo ultrices. Vestibulum ullamcorper ut orci eget varius. Aliquam nec odio suscipit velit sollicitudin pulvinar condimentum id metus. Suspendisse molestie magna mi. Mauris feugiat enim est, egestas ornare ipsum vulputate eget. Etiam in pellentesque elit.
 
@@ -30,6 +104,10 @@ Generated 5 paragraphs, 384 words, 2662 bytes of Lorem Ipsum</p>
 		
 		
 	</div>
-	
+	<script type="text/javascript">
+		$(function () {
+			$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+		});
+	</script>
 </body>
 </html>
