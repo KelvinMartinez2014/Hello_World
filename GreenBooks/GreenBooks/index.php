@@ -9,6 +9,9 @@
 </head>
 <body>
 	<?php include 'resources\php\nav_bar.php';?>
-	<p>This is going to be the main page!</p>
+	<div class="col-sm-8">
+		<p>This is going to be the main page!</p>
+	</div>
+	
 </body>
 </html>
