@@ -1,16 +1,38 @@
 .adddivwithopacity{
+    background-color: rgba(247,247,247,0.4);
+    height: 100vh;
+   /*content: “ ”;*/
+}
+
+.adddivwithopacitylogin{
     background-color: rgba(0,0,0,0.4);
     height: 100vh;
    /*content: “ ”;*/
+}
+
+.loginlabeltext{
+	color: white;
+}
+
+.transparentinputlogin{
+	 background-color: rgba(0,0,0,0);
+
+}
+.transparentinputlogin::placeholder{
+	color: white;
+}
+
+.transparentinputlogin:focus {
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	box-shadow: none;
 }
 
 .transparentinput{
 	 background-color: rgba(0,0,0,0);
 }
 
-.loginlabeltext{
-	color: white;
-}
+
 
 .transparentinput:focus {
 	color: white;

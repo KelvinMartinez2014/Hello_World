@@ -13,6 +13,7 @@
 			</div>
 			<div class="col-sm-4" style="position: relative">
 				<!-- Material input -->
+				<h1 class="text-center" style="margin-top: 120px">Sign Up</h1>
 				<div class="adddivwithopacity formbackground" style="position: absolute" ></div>
 				<div class="formsignup">
 					<form style="margin-top: 70px">

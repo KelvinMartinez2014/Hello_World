@@ -13,17 +13,18 @@
 			</div>
 			<div class="col-sm-4" style="position: relative">
 				<!-- Material input -->
-				<div class="adddivwithopacity formbackground" style="position: absolute" ></div>
+				<h1 class="text-center" style="margin-top: 120px; color:white;">Log In</h1>
+				<div class="adddivwithopacitylogin formbackground" style="position: absolute" ></div>
 				<div class="formsignup">
 					<form style="margin-top: 70px">
 					
 						<div class="form-group ">
 							<label class="font-weight-light loginlabeltext" for="formGroupExampleInput2">Email</label>
-							<input type="text" class="form-control  takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Email">
+							<input type="text" class="form-control transparentinputlogin takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Email">
 						</div>
 						<div class="form-group loginlabeltext">
 							<label class="font-weight-light" for="formGroupExampleInput2">Password</label>
-							<input type="text" class="form-control  takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Password">
+							<input type="text" class="form-control  transparentinputlogin takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Password">
 						</div>
 					
 					</form>
