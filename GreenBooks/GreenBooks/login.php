@@ -18,12 +18,12 @@
 					<form style="margin-top: 70px">
 					
 						<div class="form-group ">
-							<label class="font-weight-light" for="formGroupExampleInput2">Email</label>
-							<input type="text" class="form-control transparentinput takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Email">
+							<label class="font-weight-light loginlabeltext" for="formGroupExampleInput2">Email</label>
+							<input type="text" class="form-control  takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Email">
 						</div>
-						<div class="form-group ">
+						<div class="form-group loginlabeltext">
 							<label class="font-weight-light" for="formGroupExampleInput2">Password</label>
-							<input type="text" class="form-control transparentinput takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Password">
+							<input type="text" class="form-control  takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Password">
 						</div>
 					
 					</form>
