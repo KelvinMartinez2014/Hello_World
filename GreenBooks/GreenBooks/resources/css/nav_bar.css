@@ -1,3 +1,7 @@
+#mainmenubackground{
+	background-image: url('resources/images/mainpage.jpg');
+}
+
 .adddivwithopacity{
     background-color: rgba(247,247,247,0.4);
     height: 100vh;
@@ -76,4 +80,8 @@
 	 top: 0; 
 	 bottom: 0;
 	 
+}
+
+#forgotpassword{
+	color: #ff8080;
 }

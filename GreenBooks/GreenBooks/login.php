@@ -26,6 +26,7 @@
 							<label class="font-weight-light" for="formGroupExampleInput2">Password</label>
 							<input type="text" class="form-control  transparentinputlogin takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Password">
 						</div>
+						<div class="text-left" ><a id="forgotpassword" href="">Forgot Password</div>
 					
 					</form>
 				</div>
