@@ -11,8 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
 	
 
-
-	<?php include 'resources\php\nav_bar.php';?>
+	<!-- ATTENTION: The following php closes head and opens body -->
+	<?php include 'resources\php\nav_bar.php';?>  
 	<div class="container" style="margin-top: 4%;">
 		<!--Section: Testimonials v.1-->
 <section class="section pb-3 text-center">
@@ -449,7 +449,7 @@
 	<script type="text/javascript" src="resources/vendor/mdb/js/popper.min.js"></script>
 
 	<!-- MDB core JavaScript -->
-	<script type="text/javascript" src="resources/vendor/mdb/js/mdb.js"></script>
+	<!-- <script type="text/javascript" src="resources/vendor/mdb/js/mdb.js"></script> -->
 
 	<script type="text/javascript">
 		$(function () {
