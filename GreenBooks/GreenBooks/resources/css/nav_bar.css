@@ -1,6 +1,38 @@
-#mainmenubackground{
-	background-image: url('resources/images/mainpage.jpg');
+/*Main Menu*/
+
+.mainmenubackground{
+	background-image: url('../images/mainpage.jpg');
+	background-repeat: no-repeat;
+	background-size: cover; 
+	height: 100vh;
+	 background-attachment: fixed;
 }
+
+.transparentContainer{
+	background-color: rgba(255,255,255,0.9);
+	margin-bottom: -16%;
+}
+
+.testimonial-card{
+	background-color: rgba(0,0,0,0.1);
+}
+
+/*Log In*/
+.transparentinputlogin{
+	 background-color: rgba(0,0,0,0);
+
+}
+.transparentinputlogin::placeholder{
+	color: white;
+}
+
+.transparentinputlogin:focus {
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	box-shadow: none;
+}
+
+/*Common*/
 
 .adddivwithopacity{
     background-color: rgba(247,247,247,0.4);
@@ -18,19 +50,7 @@
 	color: white;
 }
 
-.transparentinputlogin{
-	 background-color: rgba(0,0,0,0);
 
-}
-.transparentinputlogin::placeholder{
-	color: white;
-}
-
-.transparentinputlogin:focus {
-	color: white;
-	background-color: rgba(0,0,0,0.5);
-	box-shadow: none;
-}
 
 .transparentinput{
 	 background-color: rgba(0,0,0,0);

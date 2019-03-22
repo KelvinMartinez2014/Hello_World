@@ -13,7 +13,7 @@
 
 	<!-- ATTENTION: The following php closes head and opens body -->
 	<?php include 'resources\php\nav_bar.php';?>  
-	<div class="container" style="margin-top: 4%;">
+	<div class="container transparentContainer" style="margin-top: 4%;">
 		<!--Section: Testimonials v.1-->
 <section class="section pb-3 text-center">
 
@@ -455,6 +455,13 @@
 		$(function () {
 			$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
 		});
+
+		$(document).ready(function() {  
+			var body = document.body;
+
+			body.classList.add("mainmenubackground");
+		});
+
 	</script>
 </body>
 </html>
