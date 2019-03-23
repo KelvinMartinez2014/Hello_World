@@ -92,17 +92,49 @@ Goal: Complete 50% of the project
 
 ##### Graph Displaying the Timeline for Sprint 0
 
+### Kelvin Martinez
+### Jonathan R. Roman Velez
+### 15 de Marzo de 2019
+### Prof. Alcibiades Bustillo
+### Comp 4018-020
+
+### Sprint 2 (Review)
+
+Due date: March 15, 2019
+Goal: Complete 50% of the project
+
+1. Updated Gantt charts with percent completion for sprints I and II should be done by March 13, 2019. (Completed)
+
+2. Overall project percent compilation at 50% will have to be funcional y March 13, 2019. (Completed)
+	
+	2.a Main Page template 
+	2.b Log In page
+	2.c Sign Up page
+	2.d MySQL connect to DB 
+	2.e Insert Sign Up to DB
+	2.f Install Bootstrap 
+
+3. Testing of the project should be done on March 14, 2019.
+(Completed)
+
+4. Detailed Project Development Plan for Sprint III should be done from March 7, 2019 to  March 14, 2019. (Completed)
+
+5. Updated Master Project Development Plan should be completed before March 14, 2019. (Completed)
+
+![Table 2](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Sprint%202%20Updated.PNG)
+
 ## Plans for Sprint 3:
 
 Due date: March 29th, 2019
 Goal: complete 65% or more
 
-1. Updated Gantt charts with percent completion for sprints I and II should be done by March 13, 2019.
+1. Updated Gantt charts with percent completion for sprints I - III should be done by March 28, 2019.
 
-2. Overall project percent compilation at 50% will have to be funcional y March 13, 2019.
+2. Overall project percent compilation at 60% will have to be funcional by March 27, 2019.
 
-3. Testing of the project should be done on March 14, 2019.
+4. Detailed Project Development Plan for Sprint III should be done from March 15, 2019 to  March 26, 2019.
 
-4. Detailed Project Development Plan for Sprint III should be done from March 7, 2019 to  March 14, 2019.
+5. Updated Master Project Development Plan should be completed before March 28, 2019.
 
-5. Updated Master Project Development Plan should be completed before March 14, 2019.
+![Table 3](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Sprint%203.PNG)
+
