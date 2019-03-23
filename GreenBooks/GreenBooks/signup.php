@@ -16,22 +16,33 @@
 				<h1 class="text-center" style="margin-top: 120px">Sign Up</h1>
 				<div class="adddivwithopacity formbackground" style="position: absolute" ></div>
 				<div class="formsignup">
-					<form style="margin-top: 70px">
+					<form style="margin-top: 70px" action="resources/php/signup_db.php" method="POST">
+						<div class="form-group ">
+							<label class="font-weight-light" for="formGroupExampleInput">Name</label>
+							<input type="text" name="name" class="form-control transparentinput takeourborder insertbottomline insertleftline" id="formGroupExampleInput" placeholder="Full Name">
+						</div>
+						<div class="form-group ">
+							<label class="font-weight-light" for="formGroupExampleInput">Phone</label>
+							<input type="text" name="phone" class="form-control transparentinput takeourborder insertbottomline insertleftline" id="formGroupExampleInput" placeholder="Phone">
+						</div>
 						<div class="form-group ">
 							<label class="font-weight-light" for="formGroupExampleInput">Username</label>
-							<input type="text" class="form-control transparentinput takeourborder insertbottomline insertleftline" id="formGroupExampleInput" placeholder="Username">
+							<input type="text" name="username" class="form-control transparentinput takeourborder insertbottomline insertleftline" id="formGroupExampleInput" placeholder="Username">
 						</div>
 						<div class="form-group ">
 							<label class="font-weight-light" for="formGroupExampleInput2">Email</label>
-							<input type="text" class="form-control transparentinput takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Email">
+							<input type="email" name="email" class="form-control transparentinput takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Email">
 						</div>
 						<div class="form-group ">
 							<label class="font-weight-light" for="formGroupExampleInput2">Password</label>
-							<input type="text" class="form-control transparentinput takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Password">
+							<input type="password" name="pwd" class="form-control transparentinput takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Password">
 						</div>
 						<div class="form-group ">
 							<label class="font-weight-light" for="formGroupExampleInput2">Verify Password</label>
-							<input type="text" class="form-control transparentinput takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Password">
+							<input type="password" name="pwd-2" class="form-control transparentinput takeourborder insertbottomline insertleftline" id="formGroupExampleInput2" placeholder="Password">
+						</div>
+						<div class="form-group">
+							 <button type="submit" class="btn btn-primary">Submit</button>
 						</div>
 					</form>
 				</div>
