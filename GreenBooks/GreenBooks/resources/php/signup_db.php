@@ -16,6 +16,22 @@
 	echo "Connected successfully";
 	echo $_POST["username"]. " - ". $_POST["pwd"];
 
+	$email = $_POST["email"];
+	$sql_email = "SELECT * FROM `users` WHERE email = '".$email."'";
+
+	echo $sql_email."<br/>";
+	$result = mysqli_query($conn, $sql_email);
+	if (mysqli_num_rows($result)  > 0) {
+		header("location: ../../signup.php?error=email");
+		die('email in system');
+	}
+	$sql_user = "SELECT * FROM `users` WHERE Username = '".$_POST['username']."'";
+	$result = mysqli_query($conn, $sql_user);
+
+	if (mysqli_num_rows($result)  > 0) {
+		header("location: ../../signup.php?error=username");
+		die('user in system');
+	}
 
 	if (!isset($_POST["phone"])) {
 		$phone = null;
@@ -32,10 +48,6 @@
 	    echo "Error: " . $sql . "<br>" . $conn->error;
 	}
 
-	$_SESSION["username"] = $_POST["username"];
-	$_SESSION["name"] = $_POST["name"];
-	$_SESSION["email"] = $_POST["email"];
-	$_SESSION["phone"] = $phone;
-	$_SESSION["loggedIn"] = true;
-	header("location: ../../index.php");
+	
+	header("location: ../../login.php?signup=true");
 ?>

@@ -13,47 +13,66 @@
 
 	<!-- ATTENTION: The following php closes head and opens body -->
 	<?php include 'resources\php\nav_bar.php';?>  
+
+
+	<?php 
+		session_start();
+
+		$servername = "localhost";
+		$username = "database";
+		$password = "password";
+		$dbname = "greenbooks";
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+
+		// Check connection
+		if ($conn->connect_error) {
+		    die("Connection failed: " . $conn->connect_error);
+		} 
+
+		$sql = "SELECT * FROM `books`";
+		$result = mysqli_query($conn, $sql);
+
+		
+	?>
 	<div class="container transparentContainer" style="margin-top: 4%;">
 		<!--Section: Testimonials v.1-->
 <section class="section pb-3 text-center">
 
   <!--Section heading-->
-  <h1 class="section-heading h1 pt-4">Sell a Book</h1>
+  <h1 class="section-heading h1 pt-4">Books on Sale</h1>
   <!--Section description-->
-  <p class="section-description">Fill out the following form to list a book for sale.</p>
+  <p class="section-description">Here are the following books on sale on Green Books</p>
 
   <div class="row">
-  	<div class="col-lg-4 mx-auto">
-  		<form action="resources/php/addbook_db.php" method="POST">
-  		  <div class="form-group">
-		    <label for="form-author">ISBN</label>
-		    <input type="text" class="form-control" name="form-isbn" pattern="\d{13}" title="ISBN should contain 13 numbers" id="form-isbn" placeholder="Enter Book ISBN">
-		  </div>
-		  <div class="form-group">
-		    <label for="form-name">Book Name</label>
-		    <input type="text" class="form-control" name="form-name" id="form-name" aria-describedby="emailHelp" placeholder="Enter Book Name">
-		  </div>
-		  <div class="form-group">
-		    <label for="form-author">Author</label>
-		    <input type="text" class="form-control" name="form-author" id="form-author" placeholder="Enter Book Author">
-		  </div>
-		  <div class="form-group">
-		    <label for="form-date">Release Date</label>
-		    <input type="date" class="form-control" name="form-date" id="form-date">
-		  </div>
-		  <div class="form-group">
-		    <label for="form-edition">Edition</label>
-		    <input type="number" class="form-control" name="form-edition" id="form-edition" value="1">
-		  </div>
-		  <div class="form-group">
-		    <label for="form-edition">Price in dollars</label>
-		    <input type="text" class="form-control" name="form-price" id="form-price" />
-		  </div>
-		  
-		  <button type="submit" class="btn btn-success">Submit</button>
-		</form>
+  	<div class="col-lg-8 mx-auto">
   	</div>
-	  	
+	  	<table class="table">
+		  <thead>
+		    <tr>
+		      <th scope="col">ISBN</th>
+		      <th scope="col">Book Name</th>
+		      <th scope="col">Book Author</th>
+		      <th scope="col">Release Date</th>
+		      <th scope="col">Edition</th>
+		      <th scope="col">Price</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		  	<?php
+			  	while ($row = mysqli_fetch_array($result))	{
+				echo "<tr>
+						<th scope='row'>".$row['ISBN']."</th>
+						<td>".$row['book_name']."</td>
+						<td>".$row['book_author']."</td>
+						<td>".$row['release_date']."</td>
+						<td>".$row['edition']."</td>
+						<td>$ ".$row['price']."</td>";
+				}
+			?>
+		  </tbody>
+		</table>
+		  	
     </div>
 		</section>
 

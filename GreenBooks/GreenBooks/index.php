@@ -450,7 +450,7 @@
 
 	<!-- MDB core JavaScript -->
 	<!-- <script type="text/javascript" src="resources/vendor/mdb/js/mdb.js"></script> -->
-
+	
 	<script type="text/javascript">
 		$(function () {
 			$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
