@@ -12,7 +12,7 @@
 	
 
 	<!-- ATTENTION: The following php closes head and opens body -->
-	<?php include 'resources\php\nav_bar.php';?>  
+	<?php include 'resources/php/nav_bar.php';?>  
 	<div class="container transparentContainer" style="margin-top: 4%;">
 		<!--Section: Testimonials v.1-->
 <section class="section pb-3 text-center">

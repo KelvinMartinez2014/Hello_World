@@ -3,7 +3,7 @@
 <head>
 	<title></title>
 
-	<?php include 'resources\php\nav_bar.php';?>
+	<?php include 'resources/php/nav_bar.php';?>
 
 	<div class="container-fluid" style=" background-image: url('resources/images/login.jpg'); background-repeat: no-repeat;
   background-size: cover; height: 100vh ">

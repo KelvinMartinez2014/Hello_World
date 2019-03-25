@@ -12,7 +12,7 @@
 	
 
 	<!-- ATTENTION: The following php closes head and opens body -->
-	<?php include 'resources\php\nav_bar.php';?>  
+	<?php include 'resources/php/nav_bar.php';?>  
 
 
 	<?php 
