@@ -12,7 +12,33 @@
 	
 
 	<!-- ATTENTION: The following php closes head and opens body -->
-	<?php include 'resources/php/nav_bar.php';?>  
+	<?php include 'resources/php/nav_bar.php';
+				$servername = "localhost";
+				$username = "database";
+				$password = "password";
+				$dbname = "greenbooks";
+				// Create connection
+				$conn = new mysqli($servername, $username, $password, $dbname);
+		
+				// Check connection
+				if ($conn->connect_error) {
+						die("Connection failed: " . $conn->connect_error);
+				}
+
+				$sql = "SELECT * FROM categories ORDER BY general_category ASC";
+				$result = mysqli_query($conn, $sql);
+
+				$gen_cat_array = array();
+				while ($row = mysqli_fetch_assoc($result))	{
+						if (!array_key_exists($row["general_category"], $gen_cat_array)) {
+							$gen_cat_array[$row["general_category"]] = array();
+							array_push($gen_cat_array[$row["general_category"]], $row["category"]);
+						} else {
+							array_push($gen_cat_array[$row["general_category"]], $row["category"]);
+						}
+				}
+	?>  
+	<script> var category_object = <?php echo json_encode($gen_cat_array, JSON_FORCE_OBJECT) ?>;</script>
 	<div class="container transparentContainer" style="margin-top: 4%;">
 		<!--Section: Testimonials v.1-->
 <section class="section pb-3 text-center">
@@ -45,6 +71,18 @@
 		    <label for="form-edition">Edition</label>
 		    <input type="number" class="form-control" name="form-edition" id="form-edition" value="1">
 		  </div>
+			<div class="form-group">
+		    <label for="form-general-category">Category</label>
+		    <select class="form-control"  name="form-general-category" id="form-general-category">
+				<?php foreach ($gen_cat_array as $key => $category) {?>
+					<option val="<?php echo $key; ?>"><?php echo $key; ?></option>
+				<?php } ?>
+				</select>
+		  </div>
+			<div id="form-category-container" class="form-group">
+				<label for="form-category">Category 2</label>
+				<select class="form-control" name="form-category" id="form-category"></select>
+			</div>
 		  <div class="form-group">
 		    <label for="form-edition">Price in dollars</label>
 		    <input type="text" class="form-control" name="form-price" id="form-price" />
@@ -82,11 +120,27 @@
 		$(function () {
 			$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
 		});
+		$("#form-category-container").hide();
 
+		function update_categories(){
+			var general_cat = $("#form-general-category").val();
+				var category_obj = category_object[general_cat];
+				$("#form-category").empty();
+				for(var index in category_obj) {
+					$("#form-category").append('<option value="' + category_obj[index] +'">' + category_obj[index] +'</option>');
+				}
+				$("#form-category-container").show();
+		}
 		$(document).ready(function() {  
 			var body = document.body;
-
+			update_categories();
 			body.classList.add("mainmenubackground");
+
+			
+
+			$("#form-general-category").on("change", function(){
+				update_categories();
+			});
 		});
 
 	</script>
