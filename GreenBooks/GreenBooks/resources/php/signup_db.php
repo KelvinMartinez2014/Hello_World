@@ -2,17 +2,8 @@
 
 	session_start();
 
-	$servername = "localhost";
-	$username = "database";
-	$password = "password";
-	$dbname = "greenbooks";
-	// Create connection
-	$conn = new mysqli($servername, $username, $password, $dbname);
+	include 'config.php';
 
-	// Check connection
-	if ($conn->connect_error) {
-	    die("Connection failed: " . $conn->connect_error);
-	} 
 	echo "Connected successfully";
 	echo $_POST["username"]. " - ". $_POST["pwd"];
 
