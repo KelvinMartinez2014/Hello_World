@@ -15,7 +15,10 @@
 	<?php include 'resources/php/nav_bar.php';?>  
 	<div class="container transparentContainer" style="margin-top: 4%;">
 		<div class="row">
-			
+				<div class="form-group ">
+							<label class="font-weight-light" for="form-name">Name</label>
+							<input type="text" name="name" class="form-control transparentinput takeourborder insertbottomline insertleftline" id="form-name" placeholder="Full Name">
+						</div>
 		</div>
 
 
