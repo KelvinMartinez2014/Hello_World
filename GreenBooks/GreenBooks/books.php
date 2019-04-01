@@ -55,6 +55,7 @@
 		      <th scope="col">Book Author</th>
 		      <th scope="col">Release Date</th>
 		      <th scope="col">Edition</th>
+			  <th scope="col">Category</th>
 		      <th scope="col">Price</th>
 		    </tr>
 		  </thead>
@@ -67,6 +68,7 @@
 						<td>".$row['book_author']."</td>
 						<td>".$row['release_date']."</td>
 						<td>".$row['edition']."</td>
+						<td>".$row['category']."</td>
 						<td>$ ".$row['price']."</td>";
 				}
 			?>
