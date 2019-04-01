@@ -138,3 +138,56 @@ Goal: complete 65% or more
 
 ![Table 3](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Sprint%203.PNG)
 
+
+### Kelvin Martinez
+### Jonathan R. Roman Velez
+### 12 de abril de 2019
+### Prof. Alcibiades Bustillo
+### Comp 4018-020
+
+### Sprint 3 (Review)
+
+Due date: March 29 , 2019
+Goal: Complete 65% of the project
+
+## Plans for Sprint 3:
+
+Due date: March 29th, 2019
+Goal: complete 65% or more
+
+1. Updated Gantt charts with percent completion for sprints I - III should be done by March 28, 2019. (Completed)
+
+2. Overall project percent compilation at 65% will have to be funcional by March 27, 2019. (Completed)
+	2.A Added Categories to DB
+	2.B Added Categories Add a Book
+	2.C Added Config.php
+	2.D Added Cart.php
+	2.E Added Cart to DB (book_id, user_id, cart_id)
+	2.F Added function to eliminate book from cart
+
+4. Detailed Project Development Plan for Sprint III should be done from March 15, 2019 to  March 26, 2019. (Completed)
+
+5. Updated Master Project Development Plan should be completed before March 28, 2019. (Completed)
+
+Aditional Tasks:
+
+1. Reorganizing files
+2. Updated Documentation
+3. Updated Images
+4. Review of old Sprints
+
+![Table 3](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Pictures/Official/Sprint%203%20review.PNG)
+
+## Plans for Sprint 4:
+Due Date: April 12, 2019
+Goal: Complete 80% of the project
+
+1. Update Gantt Chart woth percent completition for each sprint I-IV tasks should be done from April 1, 2019 to  April 12, 2019.
+
+2. Overall project percent completition should be 80 should be done by April 12, 2019.
+
+3. Detailed Project Development Plan for Sprint V should be done from April 5, 2019 to  April 12, 2019.
+
+4. Update General Project Development Plan should be done by April 9, 2019. 
+
+![Table 3](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Pictures/Official/Sprint%204.PNG)
