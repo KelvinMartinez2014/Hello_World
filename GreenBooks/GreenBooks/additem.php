@@ -12,13 +12,10 @@
 	
 
 	<!-- ATTENTION: The following php closes head and opens body -->
-	<?php include 'resources/php/nav_bar.php';
-				$servername = "localhost";
-				$username = "database";
-				$password = "password";
-				$dbname = "greenbooks";
-				// Create connection
-				$conn = new mysqli($servername, $username, $password, $dbname);
+	<?php 
+				include 'resources/php/lookincart_db.php';
+				include 'resources/php/nav_bar.php';
+				include 'resources/php/config.php';
 		
 				// Check connection
 				if ($conn->connect_error) {

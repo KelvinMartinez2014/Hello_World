@@ -1,11 +1,16 @@
 <?php
 
-	session_start();
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+  }
 
 	include 'config.php';
-	echo "Connected successfully"
 
-	$sql = "select books.* FROM books, cart where books.book_id = cart.book_id AND cart.user_id = '". $_SESSION["id"]."'";
+	$sql = "select books.*, cart.cart_id FROM books, cart where books.book_id = cart.book_id AND cart.user_id = '". $_SESSION["id"]."'";
 	$result = mysqli_query($conn, $sql);
 
+	$cart_object = array();
+	while ($row = mysqli_fetch_assoc($result)) {
+		array_push($cart_object, $row);
+	} 
 ?>

@@ -12,7 +12,9 @@
 	
 
 	<!-- ATTENTION: The following php closes head and opens body -->
-	<?php include 'resources/php/nav_bar.php';?>  
+	<?php 
+	include 'resources/php/lookincart_db.php';
+	include 'resources/php/nav_bar.php';?>  
 
 
 	<?php 
@@ -57,6 +59,7 @@
 		      <th scope="col">Edition</th>
 			  <th scope="col">Category</th>
 		      <th scope="col">Price</th>
+			  <th></th>
 		    </tr>
 		  </thead>
 		  <tbody>
@@ -69,7 +72,8 @@
 						<td>".$row['release_date']."</td>
 						<td>".$row['edition']."</td>
 						<td>".$row['category']."</td>
-						<td>$ ".$row['price']."</td>";
+						<td>$ ".$row['price']."</td>
+						<td><i title='Add to Cart' 	onclick='addToCart(".$row['book_id'].")'class='fas fa-plus-square'></i></td>";
 				}
 			?>
 		  </tbody>
@@ -103,7 +107,20 @@
 		$(function () {
 			$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
 		});
-
+		
+		function addToCart(item){
+			$.ajax({
+				type: "POST",
+				url: 'resources/php/add_cart.php',
+				data: {'item': item},
+				success: function(data){
+					alert("Cart Item Added... The webpage will now be refreshed!");
+					setTimeout(function(){
+						window.location.replace("books.php");
+					}, 300);
+				}
+			})
+		}
 		$(document).ready(function() {  
 			var body = document.body;
 

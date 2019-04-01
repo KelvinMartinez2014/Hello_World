@@ -1,4 +1,7 @@
-<?php session_start(); 
+<?php 
+  if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+  }
   $basename =basename(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
   if ($basename != "login.php"  && $basename != "signup.php") {
     if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] != true) {
@@ -55,8 +58,8 @@
         <a class="nav-link" href="logout.php">Log Out</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
-          <i class="fas fa-shopping-cart"></i> 
+        <a class="nav-link" href="cart.php">
+          <i class="fas fa-shopping-cart"></i> <span class="badge badge-pill badge-danger" id="cart-badge"><?php echo count($cart_object); ?></span>
         </a>       
       </li>
     </ul>
