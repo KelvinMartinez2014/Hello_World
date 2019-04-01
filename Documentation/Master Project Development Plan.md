@@ -138,3 +138,33 @@ Goal: complete 65% or more
 
 ![Table 3](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Sprint%203.PNG)
 
+
+### Kelvin Martinez
+### Jonathan R. Roman Velez
+### 12 de abril de 2019
+### Prof. Alcibiades Bustillo
+### Comp 4018-020
+
+### Sprint 3 (Review)
+
+Due date: March 29 , 2019
+Goal: Complete 65% of the project
+
+## Plans for Sprint 3:
+
+Due date: March 29th, 2019
+Goal: complete 65% or more
+
+1. Updated Gantt charts with percent completion for sprints I - III should be done by March 28, 2019. (Completed)
+
+2. Overall project percent compilation at 60% will have to be funcional by March 27, 2019. (Completed)
+
+4. Detailed Project Development Plan for Sprint III should be done from March 15, 2019 to  March 26, 2019. (Completed)
+
+5. Updated Master Project Development Plan should be completed before March 28, 2019. (Completed)
+
+![Table 3](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Pictures/Official/Sprint%203%20review.PNG)
+
+## Plans for Sprint 4:
+
+
