@@ -157,11 +157,24 @@ Goal: complete 65% or more
 
 1. Updated Gantt charts with percent completion for sprints I - III should be done by March 28, 2019. (Completed)
 
-2. Overall project percent compilation at 60% will have to be funcional by March 27, 2019. (Completed)
+2. Overall project percent compilation at 65% will have to be funcional by March 27, 2019. (Completed)
+	2.A Added Categories to DB
+	2.B Added Categories Add a Book
+	2.C Added Config.php
+	2.D Added Cart.php
+	2.E Added Cart to DB (book_id, user_id, cart_id)
+	2.F Added function to eliminate book from cart
 
 4. Detailed Project Development Plan for Sprint III should be done from March 15, 2019 to  March 26, 2019. (Completed)
 
 5. Updated Master Project Development Plan should be completed before March 28, 2019. (Completed)
+
+Aditional Tasks:
+
+1. Reorganizing files
+2. Updated Documentation
+3. Updated Images
+4. Review of old Sprints
 
 ![Table 3](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Pictures/Official/Sprint%203%20review.PNG)
 
