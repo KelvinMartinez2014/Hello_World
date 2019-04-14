@@ -19,7 +19,12 @@
 	<!-- ATTENTION: The following php closes head and opens body -->
 	<?php 
 	include 'resources/php/lookincart_db.php';
-	include 'resources/php/nav_bar.php';?>  
+	include 'resources/php/nav_bar.php';
+	
+	include 'resources/php/config.php';
+	$_SESSION["cart"] = $cart_object;
+	
+	?>  
 	<div class="container transparentContainer" style="margin-top: 4%;">
 		<div class="row">
 			<div class="col-sm-12" style="margin-top: 25px;">
@@ -49,6 +54,15 @@
 						</tbody>
 					</table>					
 				<?php } ?>
+				<?php if($total_amount > 0) { ?>
+
+				
+				<div id="total-amount">Total: <?php echo $total_amount_str ?></div>
+				<form action="resources/php/cart_checkout.php" method="POST">
+				<input type="hidden" id="cart_obj" name="cart_obj" value="<?php echo $cart_object ?>">
+					<button type="submit" class="btn btn-primary">Complete Purchase</div>
+				</form>
+				<?php }; ?>
 			</div>
 		</div>
 	</div>

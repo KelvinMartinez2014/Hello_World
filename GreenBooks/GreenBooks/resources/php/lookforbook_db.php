@@ -37,11 +37,19 @@
 		$edited = true;
 	}
 
-	if(isset($_POST['form-edition'])){
+	if(isset($_POST['form-edition']) && $_POST['form-edition'] != "0"){
 		if ($edited) {
 			$sql = $sql . " AND ";
 		}
 		$sql = $sql . "edition = ".$_POST['form-edition']." ";
+		$edited = true;
+	}
+
+	if(isset($_POST['form-category']) && $_POST['form-category'] != "N/A"){
+		if ($edited) {
+			$sql = $sql . " AND ";
+		}
+		$sql = $sql . "category = ".$_POST['form-category']." ";
 		$edited = true;
 	}
 	echo $sql . "<br>";
@@ -52,6 +60,8 @@
 		array_push($book_object, $row);
 	} 
 
+	$_SESSION["book_results"] = $book_object;
+	header("Location: ../../search_results.php");
 	foreach ($book_object as $row){
 		echo $row["book_name"] . "<br>";
 	}
