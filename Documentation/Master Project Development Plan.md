@@ -204,15 +204,15 @@ Goal: Complete 80% of the project
 
 4. Update General Project Development Plan should be done by April 9, 2019(Completed). 
 
-![Table 3](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Pictures/Official/Sprint%204.PNG)
+![Table 3](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Sprint%204%20Updated.PNG)
 
 ## Plans for Sprint 5:
 Due Date: April 26, 2019
 Goal: Complete 10% of the project
 
-1. Update Gantt Chart woth percent completition for each sprint I-V tasks should be done from April 12, 2019 to  April 26, 2019.
+1. Update Gantt Chart woth percent completition for each sprint I-V tasks should be done from April 12, 2019 to  April 24, 2019.
 
-2. Fully working project hosted on the Cloud.
+2. Fully working project hosted on the Cloud should be finished by April 26, 2019.
 
 
-![Table 3](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Pictures/Official/Sprint%204.PNG)
+![Table 3](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Sprint%205.PNG)
