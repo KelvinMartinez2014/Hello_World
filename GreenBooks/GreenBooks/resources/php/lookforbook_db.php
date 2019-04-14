@@ -17,7 +17,7 @@
 		if ($edited) {
 			$sql = $sql . " AND ";
 		}
-		$sql = $sql . "book_name = '".$_POST["form-name"]."'";
+		$sql = $sql . "book_name LIKE '%".$_POST["form-name"]."%'";
 		$edited = true;
 	}if(isset($_POST["form-author"]) && $_POST["form-author"] != ""){
 		if ($edited) {
