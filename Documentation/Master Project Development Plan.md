@@ -199,6 +199,10 @@ Goal: Complete 80% of the project
 1. Update Gantt Chart woth percent completition for each sprint I-IV tasks should be done from April 1, 2019 to  April 12, 2019(Completed).
 
 2. Overall project percent completition should be 80 should be done by April 12, 2019(Completed).
+	2.a Error troubleshooting.
+	2.b Password field added on login.php.
+	2.c basic shopping option.
+	2.d search for book in db.
 
 3. Detailed Project Development Plan for Sprint V should be done from April 5, 2019 to  April 12, 2019(Completed).
 
