@@ -220,3 +220,16 @@ Goal: Complete 10% of the project
 
 
 ![Table 3](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Sprint%205.PNG)
+
+## Plans for Sprint 5(Review):
+Due Date: April 26, 2019
+Goal: Complete 10% of the project
+
+1. Update Gantt Chart woth percent completition for each sprint I-V tasks should be done from April 12, 2019 to  April 24, 2019.(Completed)
+
+2. Fully working project hosted on the Cloud should be finished by April 26, 2019.(Completed)
+
+
+![Table 3](https://github.com/KelvinMartinez2014/Hello_World/blob/master/Sprint%205%20Updated.PNG)
+
+
