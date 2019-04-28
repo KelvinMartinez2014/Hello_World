@@ -46,8 +46,8 @@
         <a class="nav-link" href="addItem.php">Sell an Item <i class="fas fa-comment-dollar"></i></a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0 mr-auto">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <form class="form-inline my-2 my-lg-0 mr-auto" action="resources/php/search_everywhere.php">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
     <ul class="navbar-nav navbar-right">
