@@ -49,7 +49,7 @@
 		if ($edited) {
 			$sql = $sql . " AND ";
 		}
-		$sql = $sql . "category = ".$_POST['form-category']." ";
+		$sql = $sql . "category = \"".$_POST['form-category']."\" ";
 		$edited = true;
 	}
 	echo $sql . "<br>";
