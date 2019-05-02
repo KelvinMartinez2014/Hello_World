@@ -41,6 +41,11 @@
 							<input type="password" name="pwd-2" class="form-control transparentinput takeourborder insertbottomline insertleftline" id="form-pwd2" placeholder="Password">
 						</div>
 						<div class="form-group">
+							<label>Upload Image ?</label>
+							<input type="radio" name="Image" value= "Yes"/> Yes
+							<input type="radio" name ="Image" value="No"checked/>No
+						</div>
+						<div class="form-group">
 							 <button type="submit" class="btn btn-primary">Submit</button>
 						</div>
 					</form>
