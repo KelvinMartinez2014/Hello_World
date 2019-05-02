@@ -3,7 +3,7 @@
     session_start();
   }
   $basename =basename(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
-  if ($basename != "login.php"  && $basename != "signup.php") {
+  if ($basename != "login.php"  && $basename != "signup.php" && $basename != "AddImage.php") {
     if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] != true) {
         header("location: login.php?error=login");
     }
