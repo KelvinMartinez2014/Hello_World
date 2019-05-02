@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Log In</title>
 
 	<?php include 'resources/php/nav_bar.php';?>
 
