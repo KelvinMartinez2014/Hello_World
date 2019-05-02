@@ -39,6 +39,10 @@
 	    echo "Error: " . $sql . "<br>" . $conn->error;
 	}
 
-	
-	header("location: ../../login.php?signup=true");
+	if($_POST['Image']=="Yes"){
+		header("location: ../../AddImage.php");
+	}
+	else{
+		header("location: ../../login.php?signup=true");
+	}
 ?>
