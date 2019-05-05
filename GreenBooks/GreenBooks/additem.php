@@ -112,6 +112,10 @@
 		if (isset($_GET["added"])) {
 			echo "<script>alert('Book added successfully')</script>";
 		}
+	
+		if(isset($_GET["error"])){
+			echo "<script>alert('Please fill all infomation...')</script>";
+		}
 	?>
 	<script type="text/javascript">
 		$(function () {
