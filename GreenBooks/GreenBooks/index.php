@@ -15,8 +15,51 @@
 	<?php 
 	include 'resources/php/lookincart_db.php';
 	include 'resources/php/nav_bar.php';
+
+	$sql = "Select vendor_id, count(*) from Historial group by vendor_id order by count(*) desc limit 3;";
+	$result = mysqli_query($conn, $sql);
+	echo("Error description: " . mysqli_error($conn));
+	$Profile_object = array();
+	while ($row = mysqli_fetch_assoc($result)) {
+		array_push($Profile_object, $row);
+	}
+	$ListVendor=array();
+
+	foreach($Profile_object as $listVendor){
+		$sql="select * from users where UserID = ".$listVendor['vendor_id'].";";
+		$result = mysqli_query($conn, $sql);
+		while($row = mysqli_fetch_assoc($result)){
+			array_push($ListVendor,$row);
+		}
+	}
+	$num=1;
+	foreach($ListVendor as $row)
+	{
+		if($num==1){
+			$Name1=$row['Name'];
+			$Phone1=$row['Phone'];
+			$Email1=$row['Email'];
+			$Image1=$row['Image'];
+			
+		}
 		
-	?>  
+		if($num==2){
+			$Name2=$row['Name'];
+			$Phone2=$row['Phone'];
+			$Email2=$row['Email'];
+			$Image2=$row['Image'];
+		}
+		
+		if($num==3){
+			$Name3=$row['Name'];
+			$Phone3=$row['Phone'];
+			$Email3=$row['Email'];
+			$Image3=$row['Image'];
+		}
+		$num=$num+1;
+	}
+	?>
+	
 	<div class="container transparentContainer" style="margin-top: 4%;">
 		<!--Section: Testimonials v.1-->
 <section class="section pb-3 text-center">
@@ -24,9 +67,7 @@
   <!--Section heading-->
   <h1 class="section-heading h1 pt-4">Top Sellers</h1>
   <!--Section description-->
-  <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
-    numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur
-    accusamus veniam.</p>
+  <p class="section-description">In the row below display the top 3 venders of greenbooks.</p>
 
   <div class="row">
 
@@ -41,17 +82,16 @@
         </div>
 
         <!--Avatar-->
-        <div class="avatar mx-auto white"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(27).jpg"
-            alt="avatar mx-auto white" class="rounded-circle img-fluid">
+        <div class="view overlay rounded z-depth-2 mb-4"><img src="<?php echo $Image1;?>"
+            alt="avatar mx-auto white" height="200" width="350" align="left"></img>
         </div>
 
         <div class="card-body">
           <!--Name-->
-          <h4 class="card-title mt-1">John Doe</h4>
+           <h4 class="card-title mt-1"><?php echo $Name1; ?></h4>
           <hr>
           <!--Quotation-->
-          <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
-            adipisci.</p>
+			<p> Phone:<?php echo $Phone1; echo"<br>";?> Email: <?php echo $Email1; echo"<br>";?></p>
         </div>
 
       </div>
@@ -70,21 +110,19 @@
         <div class="card-up blue lighten-2">
         </div>
 
-        <!--Avatar-->
-        <div class="avatar mx-auto white"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
-            alt="avatar mx-auto white" class="rounded-circle img-fluid">
+       <!--Avatar-->
+       <div class="view overlay rounded z-depth-2 mb-4"><img src="<?php echo $Image2;?>"
+            alt="avatar mx-auto white" height="200" width="350" align="left"></img>
         </div>
 
         <div class="card-body">
           <!--Name-->
-          <h4 class="card-title mt-1">Anna Aston</h4>
+           <h4 class="card-title mt-1"><?php echo $Name2; ?></h4>
           <hr>
           <!--Quotation-->
-          <p><i class="fas fa-quote-left"></i> Neque cupiditate assumenda in maiores repudiandae mollitia
-            architecto.</p>
+			<p> Phone:<?php echo $Phone2; echo"<br>";?> Email: <?php echo $Email2; echo"<br>";?></p>
         </div>
-
-      </div>
+		</div>
       <!--Card-->
 
     </div>
@@ -100,19 +138,17 @@
         <div class="card-up deep-purple lighten-2"></div>
 
         <!--Avatar-->
-        <div class="avatar mx-auto white"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
-            alt="avatar mx-auto white" class="rounded-circle img-fluid">
+        <div class="view overlay rounded z-depth-2 mb-4"><img src="<?php echo $Image3;?>"
+            alt="avatar mx-auto white" height="200" width="350" align="left"></img>
         </div>
 
         <div class="card-body">
           <!--Name-->
-          <h4 class="card-title mt-1">Maria Kate</h4>
+           <h4 class="card-title mt-1"><?php echo $Name3; ?></h4>
           <hr>
           <!--Quotation-->
-          <p><i class="fas fa-quote-left"></i> Delectus impedit saepe officiis ab aliquam repellat, rem totam
-            unde ducimus.</p>
+			<p> Phone:<?php echo $Phone3; echo"<br>";?> Email: <?php echo $Email3; echo"<br>";?></p>
         </div>
-
       </div>
       <!--Card-->
 
@@ -459,13 +495,10 @@
 		$(function () {
 			$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
 		});
-
 		$(document).ready(function() {  
 			var body = document.body;
-
 			body.classList.add("mainmenubackground");
 		});
-
 	</script>
 </body>
 </html>
