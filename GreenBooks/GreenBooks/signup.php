@@ -67,7 +67,15 @@
 	<?php 
 		if (isset($_GET["error"])) {
 			$error = $_GET["error"];
-			echo "<script>alert('Sorry ". $error." is already in the system...')</script>";
+			if($error=="empty"){
+				echo "<script>alert('Sorry! Please fill out required information...')</script>";
+			}
+			else if($error=="password"){
+				echo "<script>alert('Sorry! Password and verify password are not equal...')</script>";
+			}
+			else{
+				echo "<script>alert('Sorry ".$error." is already in the system...')</script>";
+			}
 		}
 	?>
 	<script type="text/javascript">
