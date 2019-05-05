@@ -52,7 +52,7 @@
     </form>
     <ul class="navbar-nav navbar-right">
       <li class="nav-item">
-        <span class="nav-link"><?php echo $_SESSION["name"]; ?></span>
+        <a href= "Profile.php"><span class="nav-link"><?php echo $_SESSION["name"]; ?></span>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="logout.php">Log Out</a>
