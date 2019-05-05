@@ -7,6 +7,21 @@
 	echo $_POST["email"]. " - ". $_POST["pwd"];
 
 	$email = $_POST["email"];
+	$pasword= $_POST["pwd"];
+	$empty = "False";
+	
+	echo "Email ".$email." Password ".$password;
+	if($email ==''){
+		$empty="True";}
+	
+	if($password ==''){
+		$empty="True";}
+	
+	if($empty<>"False"){
+		header("location: ../../login.php?error=login");
+		die('login in system');
+	}
+
 	$sql = "SELECT * FROM `users` WHERE email = '".$email."'";
 	$result = mysqli_query($conn, $sql);
 
