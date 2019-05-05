@@ -1,7 +1,7 @@
 	!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title> Profile </title>
 
 	<?php
 	include 'resources/php/lookincart_db.php';
@@ -23,7 +23,7 @@
 		    die("Connection failed: " . $conn->connect_error);
 		} 
 
-		$sql = "SELECT * FROM `users` where UserID=1";
+		$sql = "SELECT * FROM `users` where Username=\"".$_SESSION['username']."\";";
 		$result = mysqli_query($conn, $sql);
 		$row = mysqli_fetch_array($result);
 	?>
@@ -42,17 +42,19 @@
 				<div class="formsignup">
 					<form style="margin-top: 70px" >
 						<div class="form-group ">
-						<h5 style="color:white; margin-top:text-center;"> UserName:<?php echo $row['Username']?>  <!--Input UserName --></h5>
+						<h5 style="color:white; margin-top:text-center;"> UserName:<?php echo $_SESSION['username'];?>  <!--Input UserName --></h5>
 						</div>
 						<div class="form-group loginlabeltext">
-						<h5 style="color:white; margin-top:text-center;"> Email: <?php echo $row['Email']?> <!--Input Email --> </h5>	
+						<h5 style="color:white; margin-top:text-center;"> Email: <?php echo $_SESSION['email'];?> <!--Input Email --> </h5>	
 						</div>
 						<div class="text-left" ><a id="forgotpassword">
-						<h5 style="color:white; margin-top:text-center;">Phone: <?php echo $row['Phone']?> <!--Input Phone --></h5>
+						<h5 style="color:white; margin-top:text-center;">Phone: <?php echo $_SESSION['phone'];?> <!--Input Phone --></h5>
 						</div>
 					</form>
-					<img class="text-fluid" src="resources/images/default.jpg"></img>
+					<img src="<?php echo $_SESSION['Image']?>" class="text-fluid" width="300" height="200" > </img>
+					<!--<img class="text-fluid" src="resources/images/default.jpg"></img>-->
 				</div>
+				
 			</div>
 			
 		</div>
