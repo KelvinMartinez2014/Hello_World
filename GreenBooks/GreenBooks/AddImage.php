@@ -13,7 +13,7 @@
 			</div>
 			<div class="col-sm-4" style="position: relative">
 				<!-- Material input -->
-				<h2 align="center" class="text-center" style="margin-top: 120px; color:black;">Log In</h2>
+				<h2 align="center" class="text-center" style="margin-top: 120px; color:black;">Sign Up</h2>
 				<div class="adddivwithopacitylogin formbackground" style="position: absolute; top: 0; " ></div>
 				<div class="formsignup">
 					<form action="AddImage_db.php" method="post" enctype="multipart/form-data">
@@ -36,5 +36,11 @@
 			</div>
 		</div>
 	</div>
+	<?php 
+		if (isset($_GET["error"])) {
+			$error = $_GET["error"];
+			echo "<script>alert('Please insert an image...')</script>";
+		}
+	?>
 </body>
 </html>
