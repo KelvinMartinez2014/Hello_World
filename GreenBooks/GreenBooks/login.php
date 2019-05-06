@@ -24,7 +24,7 @@
 						</div>
 						<div class="form-group loginlabeltext">
 							<label class="font-weight-light" for="form-pwd">Password</label>
-							<input type="text" class="form-control  transparentinputlogin takeourborder insertbottomline insertleftline" name="pwd" id="form-pwd" placeholder="Password">
+							<input type="password" class="form-control  transparentinputlogin takeourborder insertbottomline insertleftline" name="pwd" id="form-pwd" placeholder="Password">
 						</div>
 						<div class="text-left" ><a id="forgotpassword" href="#">Forgot Password</div>
 						
