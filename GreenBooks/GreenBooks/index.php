@@ -33,6 +33,7 @@
 		}
 	}
 	$num=1;
+	echo "FIne";
 	foreach($ListVendor as $row)
 	{
 		if($num==1){

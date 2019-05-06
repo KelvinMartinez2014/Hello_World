@@ -22,7 +22,7 @@
 						die("Connection failed: " . $conn->connect_error);
 				}
 
-				$sql = "SELECT * FROM categories ORDER BY general_category ASC";
+				$sql = "SELECT distinct * FROM categories ORDER BY general_category ASC";
 				$result = mysqli_query($conn, $sql);
 
 				$gen_cat_array = array();
